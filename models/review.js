@@ -26,7 +26,7 @@ const ReviewSchema = new mongoose.Schema ({
   },
   product: {
     type: mongoose.Schema.ObjectId,
-    ref: 'Product',
+    ref: 'Product1',
     required: true,
   },
 },
